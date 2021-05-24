@@ -1,8 +1,8 @@
-# Welcome to your CDK TypeScript project!
+# General Lookup API Server
 
-This is a blank project for TypeScript development with CDK.
+For general usage, when you want to store variant of data into database and lookup them by their UUID. 
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+This project is built with AWS tech stacks: Lambda functions, DynamoDB.
 
 ## Useful commands
 
