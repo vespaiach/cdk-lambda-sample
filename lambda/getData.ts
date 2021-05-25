@@ -1,4 +1,4 @@
-import { get } from '../dynamoDB/db';
+import { get } from './db';
 import { EventSource } from '../types';
 
 export const handler = async (event: EventSource) => {

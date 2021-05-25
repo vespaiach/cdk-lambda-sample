@@ -1,4 +1,4 @@
-import { put } from '../dynamoDB/db';
+import { put } from './db';
 import { EventSource } from '../types';
 
 const RESERVED_RESPONSE = `Error: You're using AWS reserved keywords as attributes`;

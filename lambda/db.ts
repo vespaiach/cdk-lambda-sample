@@ -1,7 +1,7 @@
-import { DynamoDB } from 'aws-cdk';
+import { DynamoDB } from 'aws-sdk';
 
 const db = new DynamoDB.DocumentClient();
-const TableName = process.env.TABLE_NAME;
+const TableName = process.env.TABLE_NAME as string;
 
 export const get = (uuid: string) =>
     db
