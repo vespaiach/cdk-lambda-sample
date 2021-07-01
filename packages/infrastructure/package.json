@@ -23,6 +23,8 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-cloudfront": "1.110.1",
+    "@aws-cdk/aws-cognito": "^1.110.1",
     "@aws-cdk/aws-s3": "1.110.1",
     "@aws-cdk/aws-s3-assets": "1.110.1",
     "@aws-cdk/aws-s3-deployment": "1.110.1",
