@@ -16,10 +16,10 @@
         "prettier": "^2.3.2"
     },
     "scripts": {
-        "eslint": "eslint"
+        "eslint": "eslint",
+        "deploy": "./deploy.sh"
     },
     "workspaces": [
-        "web",
-        "infrastructure"
+        "packages/*"
     ]
 }
